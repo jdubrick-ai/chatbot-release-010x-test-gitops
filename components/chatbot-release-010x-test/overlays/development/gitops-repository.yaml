@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: chatbot-release-010x-test-gitops-repository
+spec:
+  url: https://github.com/jdubrick-ai/chatbot-release-010x-test-gitops
